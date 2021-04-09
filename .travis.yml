@@ -60,6 +60,8 @@ matrix:
       env: TOXENV=py
   allow_failures:
     - python: "nightly"
+    - python: 3.4
+    - env: TOXENV=tz
 
 install:
   - |
